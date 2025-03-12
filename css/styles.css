@@ -156,13 +156,25 @@ color: black;
     padding: 188px 0;
 }
 
-.fourth-section .section-title {
+.fourth-section {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    padding: 120px 0;
+}
+
+.section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+    text-align: center;
 }
 
 .project-title {
@@ -171,6 +183,7 @@ color: black;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .project-description {
@@ -351,4 +364,24 @@ margin: 0 auto 24px;
 .team-name {
   text-align: center;
   margin-bottom: 8px;
+}
+
+.app-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  text-align: center;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  list-style: none;
+  padding: 0;
+}
+
+project-item {
+  width: calc((100% - 48px) / 3);
 }
